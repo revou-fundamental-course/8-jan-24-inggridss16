@@ -1,0 +1,91 @@
+body {
+  background-color: rgb(29, 34, 34);
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  font-size: 100px;
+}
+
+h4 {
+  font-family: verdana;
+  text-align: center;
+  font-size: 24px;
+}
+
+h5 {
+  font-family: verdana;
+  text-align: center;
+  font-size: 20px;
+}
+
+p,
+label {
+  font-family: verdana;
+  font-size: 14px;
+}
+
+.align-center {
+  vertical-align: middle !important;
+  text-align: center !important;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.margin {
+  margin: 50px;
+}
+
+hr {
+  margin: 50px;
+}
+
+.center-rectangle {
+  margin: auto;
+  width: 50%;
+  border: 3px solid rgb(192, 203, 228);
+  padding: 10px;
+}
+
+.button {
+  background-color: #008cba;
+  border: none;
+  border-radius: 16px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 50%;
+}
+
+.button-hitung {
+  background-color: #008cba;
+  border-radius: 16px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button-reset {
+  background-color: orange;
+  border: none;
+  border-radius: 16px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
